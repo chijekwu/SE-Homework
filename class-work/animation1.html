@@ -1,0 +1,33 @@
+<html>
+ <head>
+   <title>Keyframe animation</title>
+      <style type="text/css">
+        .road{
+            height:50%;
+            background:dimgrey;
+            width:100%
+        }
+        .mario{
+            position:absolute;
+            top:40px;
+            left:0px;
+            animation-name: drive;
+            animation: duration 3s;
+            animation-fill-mode:backwards;
+        }
+        @keyframes drive{
+            from{
+               transform:translateX(1000px)  
+            }
+            to{
+               transform:translateX(0px)
+            }
+        }
+        </style>
+     </head>
+     <body>
+        <div class="road" >
+             <img class="mario" src="mario.png">
+         </div>
+     </body>
+</html>

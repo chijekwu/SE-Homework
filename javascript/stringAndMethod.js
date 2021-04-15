@@ -20,6 +20,10 @@ replace()
 replaceAll()
 padStart()
 padEnd()
+includes()
+endsWith()
+startsWith()
+repeat()
 */
 let message = "I like hot coffee and a hot chocolate";
 console.log(message.replace('hot', 'cold'));

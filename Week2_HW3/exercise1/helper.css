@@ -1,0 +1,38 @@
+body{
+    background-image: url('https://s3-us-west- 2.amazonaws.com/s.cdpn.io/455884/cat.jpg');
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 100%));
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://s3-us-west- 2.amazonaws.com/s.cdpn.io/455884/cat.jpg');
+  }
+
+  .full-width {
+    grid-column: 1 / -1;
+  }
+
+  .wrapper {
+    grid-column: 2 / -2;
+  }
+
+  .left-edge {
+    grid-column: 1 / -2;
+  }
+
+  .right-wrapper {
+    grid-column: 4 / -2;
+  }
+  .item{
+      background-color: blue;
+      width: 100%;
+      height: 100%;
+      border: 1px solid;
+      border-radius: 50%;
+  }
+  .item:hover{
+      background-color:green;
+      opacity: 0;
+  }

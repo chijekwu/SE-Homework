@@ -114,4 +114,4 @@ function reverseString(originalWord){
     return longWords;
   }
   
-  console.log(multiplyArray([1,2,3,4]));
+
